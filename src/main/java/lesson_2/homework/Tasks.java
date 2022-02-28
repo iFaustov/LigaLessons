@@ -2,6 +2,7 @@ package lesson_2.homework;
 
 public class Tasks {
     public static void main(String[] args) {
+        task_1();
     }
 
     /**
@@ -11,9 +12,9 @@ public class Tasks {
     public static void task_1() {
         int a = 1;
         String b = "1";
-//        if (a == b) {
-//            System.out.println("success");
-//        }
+       if (a == Integer.parseInt(b)) {
+           System.out.println("success");
+       }
 
 //        if (b.equals(a)) {
 //            System.out.println("success");
